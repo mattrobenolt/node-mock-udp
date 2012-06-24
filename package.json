@@ -1,6 +1,6 @@
 {
   "name": "mock-udp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Mocking and testing for UDP",
   "main": "lib/mock-udp",
   "repository": {
