@@ -16,7 +16,7 @@ describe('mock-udp.version', function(){
 });
 
 describe('mock-udp.intercept', function(){
-    it('should have punched Socket.prototype.send in the face', function(){
+    it('should have punched Socket.prototype.send and Socket.prototype.connect in the face', function(){
         mockudp.intercept();
         mockudp.isMocked().should.be.ok;
         mockudp.revert();
