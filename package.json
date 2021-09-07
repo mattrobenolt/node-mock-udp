@@ -5,7 +5,7 @@
   "main": "lib/mock-udp",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mattrobenolt/nock-udp.git"
+    "url": "git://github.com/mattrobenolt/node-mock-udp.git"
   },
   "scripts": {
     "test": "make test"
